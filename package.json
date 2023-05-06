@@ -1,14 +1,25 @@
 {
   "name": "registeruser",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
+    "country-state-city": "^3.1.4",
+    "datatables.net": "^1.13.4",
+    "datatables.net-dt": "^1.13.4",
+    "jquery": "^3.6.4",
+    "mongoose": "^7.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router": "^6.11.0",
+    "react-router-dom": "^6.11.0",
     "react-scripts": "5.0.1",
+    "react-select": "^5.7.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +45,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@hookform/resolvers": "^3.1.0",
+    "react-hook-form": "^7.43.9",
+    "yup": "^1.1.1"
   }
 }
